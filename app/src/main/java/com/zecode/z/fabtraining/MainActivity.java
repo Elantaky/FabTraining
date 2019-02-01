@@ -29,7 +29,7 @@ FloatingActionButton fabPerson,fabExplore,fabExit;
                 Toast.makeText(MainActivity.this, "explore clicked", Toast.LENGTH_SHORT).show();
             }
         });
-        fabPerson.setOnClickListener(new View.OnClickListener() {
+        fabExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "exit clicked", Toast.LENGTH_SHORT).show();
